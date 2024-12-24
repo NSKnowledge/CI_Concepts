@@ -1,6 +1,11 @@
 name: CI demo
 
-on: push
+on: 
+  push:
+    branches: 
+      - main
+
+  pull-request:
 
 jobs: 
     lint:

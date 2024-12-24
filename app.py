@@ -13,3 +13,4 @@ def mul(a, b):
 
 greet("Neha")
 print(add(3, 5))
+print(mul(4, 7))
